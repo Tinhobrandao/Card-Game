@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Game</title>
+</head>
+<body>
+    <h1>Card Game</h1>
+    <img src="imgs/background.jpg" alt="">
+
+    <main class="gameScreen">
+        <div id="vida">
+            <div id="vidaJogador"> <p id="#vidaJogadorP">            
+            </p></div>
+            <div id="vidaComputador"> <p id="vidaComputadorP">            
+            </p></div>
+        </div>
+        
+        <div class="mao" id="maoComputador">
+            <div class="cartas" id="carta1Computador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img src="imgs/elementos.png" alt="cardBack">
+            </div>
+            <div class="cartas" id="carta2Computador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img src="imgs/elementos.png" alt="cardBack">
+            </div>
+            <div class="cartas" id="carta3Computador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img src="imgs/elementos.png" alt="cardBack">
+            </div>
+            <div class="cartas" id="carta4Computador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img src="imgs/elementos.png" alt="cardBack">
+            </div>
+            <div class="cartas" id="carta5Computador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img src="imgs/elementos.png" alt="cardBack">
+            </div>
+        </div>
+        <div class="cartasNaMesa" id="cartasJogadas">
+            <div class="cartasMesa" id="cartasNaMesaJogador">
+                <p class="nome"></p>
+                <p class="efeito"></p>
+                <img id="imgCartaJogada" alt="">
+            </div>
+            <div class="cartasMesa" id="cartasNaMesaComputador"></div>
+        </div>
+
+
+        <div class="mao" id="maoJogador">
+            <div class="cartasJogador" id="carta1Jogador">
+                <p class="nome" id="nome1Jogador"></p>
+                <p class="efeito" id="efeito1Jogador"></p>
+                <img id="carta1JogadorImg" src="/imgs/imagemCartaBack.jpg" alt="cardBack">
+            </div>
+            <div class="cartasJogador" id="carta2Jogador">
+                <p class="nome" id="nome2Jogador"></p>
+                <p class="efeito" id="efeito2Jogador"></p>
+                <img id="carta2JogadorImg" src="/imgs/imagemCartaBack.jpg" alt="cardBack">
+            </div>
+            <div class="cartasJogador" id="carta3Jogador">
+                <p class="nome" id="nome3Jogador"></p>
+                <p class="efeito" id="efeito3Jogador"></p>
+                <img id="carta3JogadorImg" src="/imgs/imagemCartaBack.jpg" alt="cardBack">
+            </div>
+            <div class="cartasJogador" id="carta4Jogador">
+                <p class="nome" id="nome4Jogador"></p>
+                <p class="efeito" id="efeito4Jogador"></p>
+                <img id="carta4JogadorImg" src="/imgs/imagemCartaBack.jpg" alt="cardBack">
+            </div>
+            <div class="cartasJogador" id="carta5Jogador">
+                <p class="nome" id="nome5Jogador"></p>
+                <p class="efeito" id="efeito5Jogador"></p>
+                <img id="carta5JogadorImg" src="/imgs/imagemCartaBack.jpg" alt="cardBack">
+            </div>
+        </div>
+        
+    </main>
+    <script src="cards.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
